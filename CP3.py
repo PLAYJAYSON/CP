@@ -1,5 +1,5 @@
 import math
-def funtext(x1,x2,h)   
+def funtext(x1,x2,h):   
     l = []
     while round(x1, 1) <= x2:
         l.append(str(round((1 + x1 * x1) / 2 * math.atan(x1) - x1 / 2, 5)) + ',' + ' ' + 'При х = ' + str(round(x1, 2)))
